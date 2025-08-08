@@ -1,5 +1,5 @@
 # Movie Ticket Booker Program
-This program aloows you to book a ticket for any movie of your choice. 
+This program allows you to book a ticket for any movie of your choice. 
 
 # Features:
 1. A simple UI for easy and convenient access
