@@ -1,2 +1,21 @@
-# movie-ticket-booker
-This is a Java Program which allows a user to book a seat for any movie of their choice. 
+# Movie Ticket Booker Program
+This program aloows you to book a ticket for any movie of your choice. 
+
+# Features:
+1. A simple UI for easy and convenient access
+2. An Admin Panel for the Theatre Admin
+3. Ticket receipts are also saved to a file for easy access
+4. The number of seats update everytime any user books a seat.
+
+# How to run this program:
+There are two **__ways__** to run this program:
+1. By executing the `runClient.bat` file.
+2. By running it the command way.
+
+# By exeecuting file:
+To run the program directly, just click on the `runClient.bat`. 
+> [!NOTE]
+> Do note that this file only runs on Windows. For running the program on Linux or any other operating system. Please refer to Method 2
+
+# Running it the command way:
+To run the program via command first complie the programs. You must compile **two** programs, namely `ReservationServer.java`
