@@ -18,4 +18,8 @@ To run the program directly, just click on the `runClient.bat`.
 > Do note that this file only runs on Windows. For running the program on Linux or any other operating system. Please refer to Method 2
 
 # Running it the command way:
-To run the program via command first complie the programs. You must compile **two** programs, namely `ReservationServer.java`
+To run the program via command first complie the programs. You must compile **two** programs, namely `ReservationServer.java` and `Client1.java`.
+To compile `ReservationServer.java` use the following command:
+```java
+javac -d ./bin -cp ./bin ./src/reservation/server/ReservationServer.java
+``` 
