@@ -1,0 +1,10 @@
+----Movie Ticket----
+Name: null
+Email: null
+Mobile Number: 0
+Timing chosen: 10:30
+Seats booked: 90
+Refreshments: No
+Discount: 20.0
+Total bill: 8980.0
+Thank you for booking with us!
