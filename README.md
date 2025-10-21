@@ -12,12 +12,12 @@ There are two **__ways__** to run this program:
 1. By executing the `runClient.bat` file.
 2. By running it the command way.
 
-# By exeecuting file:
+# By executing file [Method 1]:
 To run the program directly, just click on the `runClient.bat`. 
 > [!NOTE]
 > Do note that this file only runs on Windows. For running the program on Linux or any other operating system. Please refer to Method 2
 
-# Running it the command way:
+# Running it the command way [Method 2]:
 To run the program via command first complie the programs. You must compile **two** programs, namely `ReservationServer.java` and `Client1.java`.
 To compile `ReservationServer.java` use the following command:
 ```java
