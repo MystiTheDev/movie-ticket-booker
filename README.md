@@ -1,9 +1,10 @@
 # Movie Ticket Booker Program
 This program allows you to book a ticket for any movie of your choice. 
+This project is for my school project for the year 2025-26.
 
 # Features:
 1. A simple UI for easy and convenient access
-2. An Admin Panel for the Theatre Admin
+2. An Admin Panel that can be used for adding new movies or resetting the seat count.
 3. Ticket receipts are also saved to a file for easy access
 4. The number of seats update everytime any user books a seat.
 
@@ -34,6 +35,13 @@ To run the program simply type:
 ```java
 java -cp ./bin reservation.client.Client1
 ```
+
+# Under the hood
+To check how this program works under the hood, you can go to [src](./src) folder, where the source code is housed.
+You can edit or modify this program to suit your needs.
+The comments are given at specific places for you to understand what the program does.
+
+
 # What can you do with this program?
 You can use this as a base for any of your projects which are similar to this.
 
