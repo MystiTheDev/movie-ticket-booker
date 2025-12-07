@@ -10,7 +10,7 @@ This program allows you to book a ticket for any movie of your choice.
 # How to run this program:
 There are two **__ways__** to run this program:
 1. By executing the `runClient.bat` file. [**'Method 1'**](#method1)
-2. By running it the command way. [Method 2](#method2)
+2. By running it the command way. [**'Method 2'**](#method2)
 
 # #method1
 # By executing file [Method 1]:
