@@ -1,4 +1,7 @@
-# Movie Ticket Booker Program
+
+<img width="1920" height="1080" alt="logo_github2" src="https://github.com/user-attachments/assets/2a343940-b7b7-4ab8-9977-e31d3678b237" />
+<h1 align = "center">Movie Ticket Booker Program</h1>
+
 This program allows you to book a ticket for any movie of your choice.
 This project is for my school project for the year 2025-26.
 
