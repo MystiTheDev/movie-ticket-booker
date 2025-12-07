@@ -9,14 +9,16 @@ This program allows you to book a ticket for any movie of your choice.
 
 # How to run this program:
 There are two **__ways__** to run this program:
-1. By executing the `runClient.bat` file.
-2. By running it the command way.
+1. By executing the `runClient.bat` file. [**'Method 1'**](#method1)
+2. By running it the command way. [Method 2](#method2)
 
+# #method1
 # By executing file [Method 1]:
 To run the program directly, just click on the `runClient.bat`. 
 > [!NOTE]
 > Do note that this file only runs on Windows. For running the program on Linux or any other operating system. Please refer to Method 2
 
+# #method2:
 # Running it the command way [Method 2]:
 To run the program via command first complie the programs. You must compile **two** programs, namely `ReservationServer.java` and `Client1.java`.
 To compile `ReservationServer.java` use the following command:
