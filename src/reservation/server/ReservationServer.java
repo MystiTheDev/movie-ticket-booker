@@ -72,7 +72,7 @@ public class ReservationServer {
         try {
             File directory = new File("./data");
             if (directory.mkdir()) {
-                System.out.println("Path exists!");
+                //System.out.println("Path exists!");
             }
 
             // Checking for file existence
@@ -349,6 +349,7 @@ public class ReservationServer {
     /**
      * These methods are only accessible by the admin. These methods are used to reset the number of seats, add new movies, etc. 
      * This method allows the admin to reset the available number of seats.
+     * These commands can be accessed by running TheatreAdmin class.
      * @param seats - Number of seats
      */
 
@@ -397,6 +398,6 @@ public class ReservationServer {
             movies[i] = new Movie(newMovieName, movieDescription, movieTimings);
         }
 
-        serializeMovies(movies);
+                        serializeMovies(movies);
     }
 }
