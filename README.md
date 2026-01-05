@@ -6,7 +6,7 @@ This program allows you to book a ticket for any movie of your choice.
 This project is for my school project for the year 2025-26.
 
 # Version
-This is **v0.2.0a**.
+This is **v0.1-RELEASE**.
 More updates will be added later.
 
 # Features:
