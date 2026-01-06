@@ -7,7 +7,7 @@ This project is for my school project for the year 2025-26.
 
 # Version
 This is **v0.1-RELEASE**.
-More updates will be added later.
+The latest version can be found here: https://github.com/MystiTheDev/movie-ticket-booker/releases
 
 # Features:
 1. A simple UI for easy and convenient access
