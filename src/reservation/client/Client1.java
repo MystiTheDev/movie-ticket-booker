@@ -1,15 +1,23 @@
 package reservation.client;
+import reservation.server.Movie;
 import reservation.server.ReservationServer;
+import reservation.server.Movie;
 import java.util.*;
+import java.util.stream.Stream;
+
 
 public class Client1 {
     public static void main(String args[])
     {
         ReservationServer server = new ReservationServer();
+        TheatreAdmin loader = new TheatreAdmin();
         String userName, emailId;
         long mobileNumber;
 
         Scanner sc = new Scanner(System.in);
+
+        printMsgWithProgressBar("Loading..", 50, 500);
+        System.out.println();
 
         System.out.println("Hello user!");
         System.out.println("You need to login to continue!");
@@ -24,12 +32,14 @@ public class Client1 {
         mobileNumber = sc.nextLong();
         sc.nextLine(); // Consume newline
 
-        String[] movies = server.getMovieName();
-        String[] offer = server.getOffers();
+        Movie[] movies = server.getMovies();
+        /**for(int i = 0; i<4; i++)
+            System.out.println(movies[i] + " ");**/
 
         server.setName(userName);
         server.setEmailId(emailId);
         server.setMobileNo(mobileNumber);
+
 
         try {
             Thread.sleep(1000);
@@ -39,18 +49,10 @@ public class Client1 {
 
         // Show running movies
         System.out.println("The shows that are running are:");
-        for (String movie : movies) {
+        for (Movie movie : movies) {
             System.out.println("- " + movie);
         }
-
-        // Show offers
-        System.out.println("\nToday's offers:");
-        for (String offers : offer) {
-            System.out.println(offers);
-        }
         
-
-
         // Menu
         while (true) {
             System.out.println("\nWhat would you like to do?");
@@ -61,21 +63,56 @@ public class Client1 {
             int choice = sc.nextInt();
             sc.nextLine(); // Consume newline
 
+            //Choices
             switch(choice)
             {
                 case 1:
-                    server.viewMovieDetails();
+                    server.viewMovieDetails(); //Shows the user the movie details
+                    break; 
 
                 case 2:
-                    server.bookTicket();
+                    server.bookTicket(); //Takes the user to the booking ticket process
+                    break;
 
                 case 3:
+                    try{
+                        Thread.sleep(1000);
+                    }catch(Exception e)
+                    {
+                    }
                     System.out.println("Exiting the program...");
                     System.out.println("Thank you for using my app!");
+                    System.exit(0);
+                    break;
 
-
+                default:
+                    System.out.println("Invalid Choice");
+                    System.exit(0);
             }
-            sc.close();
+            
     }
 }
+
+public static void printMsgWithProgressBar(String message, int length, long timeInterval)
+    {
+        char incomplete = '░'; // U+2591 Unicode Character
+        char complete = '█'; // U+2588 Unicode Character
+        StringBuilder builder = new StringBuilder();
+        Stream.generate(() -> incomplete).limit(length).forEach(builder::append);
+        System.out.println(message);
+        for(int i = 0; i < length; i++)
+        {
+            builder.replace(i,i+1,String.valueOf(complete));
+            String progressBar = "\r"+builder;
+            System.out.print(progressBar);
+            try
+            {
+                Thread.sleep(timeInterval);
+            }
+            catch (InterruptedException ignored)
+            {
+
+            }
+        }
+    }
 }
