@@ -6,7 +6,7 @@ This program allows you to book a ticket for any movie of your choice.
 This project is for my school project for the year 2025-26.
 
 # Version
-This is **v1.0-RELEASE**.
+This is **v1.0.1-RELEASE**.
 The latest version can be found here: https://github.com/MystiTheDev/movie-ticket-booker/releases
 
 # Features:
