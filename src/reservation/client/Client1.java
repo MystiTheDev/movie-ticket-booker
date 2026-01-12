@@ -16,7 +16,7 @@ public class Client1 {
 
         Scanner sc = new Scanner(System.in);
 
-        printMsgWithProgressBar("Loading..", 50, 500);
+        printMsgWithProgressBar("Loading", 30, 250);
         System.out.println();
 
         System.out.println("Hello user!");
@@ -87,7 +87,6 @@ public class Client1 {
 
                 default:
                     System.out.println("Invalid Choice");
-                    System.exit(0);
             }
             
     }
