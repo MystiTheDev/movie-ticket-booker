@@ -3,7 +3,7 @@
 <h1 align = "center">Movie Ticket Booker Program</h1>
 
 This program allows you to book a ticket for any movie of your choice.
-This project is for my school project for the year 2025-26.
+This project is for my school project for the year 2026-27.
 
 # Version
 This is **v1.0.1-RELEASE**.
@@ -53,3 +53,8 @@ The comments are given at specific places for you to understand what the program
 You can use this as a base for any of your projects which are similar to this.
 
 Thank you for viewing my first project🙂
+
+Made by:
+**K.Ishan**
+**Class XII 'A' Section**
+**2026-27**
